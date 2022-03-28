@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Be Vietnam Pro";
+  background-image: url("../img/bg-tablet-pattern.svg");
+  color: #242e52;
+}
+
+/* CSS - HEADER */
+
+header {
+  padding: 20px;
+  display: flex;
+
+  justify-content: space-between;
+}
+nav {
+  display: none;
+}
+.logo img {
+  width: 100px;
+  height: 16px;
+}
+.getstarted {
+  display: none;
+}
+
+/* CSS - MAIN */
+
+.grafico img {
+  width: 100%;
+}
+h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+  line-height: 1.25;
+}
+.texto {
+  padding: 20px;
+  text-align: center;
+}
+.texto p {
+  line-height: 1.8;
+}
+.getstarted2 {
+  display: flex;
+  justify-content: center;
+}
+.getstarted2 button {
+  border-radius: 50px;
+  background-color: #f3603b;
+  border: none;
+  width: 40%;
+  color: white;
+  font-size: 13.18px;
+  align-content: center;
+  padding: 1rem 2rem;
+  margin-top: 0.95rem;
+  margin-bottom: 4.5rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+  line-height: 1.25;
+}
+.button-number {
+  border-radius: 50px;
+  background-color: #f3603b;
+  border: none;
+  width: 20.5%;
+  color: white;
+  padding: 0.55rem;
+  font-size: 16px;
+  font-weight: bold;
+  align-content: center;
+}
+
+.numeracion {
+  display: flex;
+  flex-direction: row;
+  background-color: #fbe9e5;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+h4 {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+article p {
+  line-height: 1.8;
+  padding: 20px;
+  text-align: left;
+}
+
+.texto div h3 {
+  margin-bottom: 60px;
+  margin-top: 25px;
+}
+
+/* CSS - FOOTER */
+
+footer {
+  background-color: #f3613c;
+  color: white;
+}
+
+.negro {
+  background-color: #1e1e26;
+}
+footer section div p {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5rem;
+}
+.getstarted3 {
+  display: flex;
+  justify-content: center;
+}
+.getstarted3 button {
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  width: 40%;
+  color: #f3603b;
+  font-size: 13.18px;
+  align-content: center;
+  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4.5rem;
+  font-weight: bold;
+}
+
+.comunicaciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3rem 1.5rem;
+}
+
+.GO {
+  border-radius: 50px;
+  background-color: #f3603b;
+  border: none;
+  width: 25%;
+  color: white;
+  padding: 1rem 1rem;
+  font-size: 12px;
+  font-weight: bold;
+  align-content: center;
+}
+
+input#email {
+  padding: 1rem 1.5rem;
+  border: 1px solid #f6f6f6;
+  border-radius: 50px;
+  background-color: #f6f6f6;
+}
+
+.comunicaciones2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.comunicaciones2 ul li {
+  list-style: none;
+}
+.comunicaciones2 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  line-height: 2.5;
+}
+.comunicaciones3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2.5rem 1.5rem;
+}
+.copy {
+  color: grey;
+  text-align: center;
+  padding: 2rem;
+}
+.logofinal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem 1rem;
+}
+
+a img {
+  width: 2rem;
+}
+
+/* CSS - DESKTOP */
+
+@media (min-width: 375px) {
+  body {
+    padding: 5rem;
+  }
+
+  /* CSS - header */
+
+  header {
+    padding: 3rem 8rem;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .getstarted {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .getstarted button {
+    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    background-color: #f3603b;
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 13.18px;
+    font-weight: bold;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    padding: 1rem;
+  }
+  .navbar a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .menu-hamburguesa {
+    display: none;
+  }
+  /* CSS - main */
+  .desktop {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .grafico {
+    width: 50%;
+  }
+  .texto {
+    width: 50%;
+  }
+}
