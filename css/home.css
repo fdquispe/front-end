@@ -70,6 +70,9 @@ h3 {
   margin-bottom: 0.7rem;
   line-height: 1.25;
 }
+.texto3 {
+  text-align: center;
+}
 .button-number {
   border-radius: 50px;
   background-color: #f3603b;
@@ -211,9 +214,6 @@ a img {
 
   /* CSS - header */
 
-  header {
-    border: solid blue 6px;
-  }
   .logo {
     display: flex;
     align-items: center;
@@ -260,11 +260,9 @@ a img {
     flex-direction: row-reverse;
     width: 100%;
     gap: 0.01;
-    border: #f3603b double 4px;
   }
   .desktop {
     position: relative;
-    border: #58e019 solid 4px;
   }
   section .getstarted2 {
     position: absolute;
