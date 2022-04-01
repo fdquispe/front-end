@@ -293,4 +293,54 @@ a img {
   .texto h3 {
     font-size: 58px;
   }
+
+  .main2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  section .texto {
+    width: 50%;
+  }
+  section .texto_izquierdo {
+    width: 50%;
+    padding-top: 20px;
+    text-align: left;
+  }
+  .numeracion {
+    background-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .button-number {
+    width: 10%;
+    padding: 0.8rem;
+  }
+  .texto3 div h3 {
+    text-align: center;
+    font-size: 58px;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
+  }
+  .final-main {
+    display: flex;
+    flex-direction: row;
+  }
+  .final-main article {
+    text-align: center;
+    background-color: #fafafa;
+    position: relative;
+  }
+  .final-main img {
+    position: absolute;
+    bottom: 11.2rem;
+    left: 13.5rem;
+  }
+  .final-main h5 {
+    padding-top: 6rem;
+  }
+  .final-main p {
+    text-align: center;
+    padding-top: 2rem;
+  }
 }
