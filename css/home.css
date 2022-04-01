@@ -212,7 +212,7 @@ a img {
   /* CSS - header */
 
   header {
-    padding: 3rem 8rem;
+    border: solid blue 6px;
   }
   .logo {
     display: flex;
@@ -255,14 +255,42 @@ a img {
     display: none;
   }
   /* CSS - main */
-  .desktop {
+  .section1 {
     display: flex;
     flex-direction: row-reverse;
+    width: 100%;
+    gap: 0.01;
+    border: #f3603b double 4px;
+  }
+  .desktop {
+    position: relative;
+    border: #58e019 solid 4px;
+  }
+  section .getstarted2 {
+    position: absolute;
+    left: 1rem;
+    bottom: 7.5rem;
+  }
+  .getstarted2 button {
+    width: 100%;
+    padding: 1.25rem 3rem;
+    box-shadow: 0px 4px 8px 0px #f2613b80;
   }
   .grafico {
-    width: 50%;
+    width: 50vw;
   }
   .texto {
-    width: 50%;
+    width: 50vw;
+    padding-right: 3rem;
+    text-align: left;
+  }
+  .texto h2 {
+    font-size: 58px;
+  }
+  .texto p {
+    font-size: 16.56px;
+  }
+  .texto h3 {
+    font-size: 58px;
   }
 }
